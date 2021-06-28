@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     padding:0;
     width: 100%;
+    background-color: #eee;
 }
 .todo-details {
     display:flex;
@@ -66,7 +67,7 @@ body, html {
             }
 
             span {
-                background: #e0e0e0;
+                background: #bfddff;
                 cursor:pointer;
                 &:hover {
                     background: pink;
@@ -91,4 +92,9 @@ body, html {
         }
     }
 
+}
+
+.btns {
+    float: right;
+    margin-top: 2%;
 }
